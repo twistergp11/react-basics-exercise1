@@ -2,8 +2,8 @@ import React from "react";
 import useCoordinates from "./useCoordinates";
 import CoordinatesTemplate from "./CoordinatesTemplate";
 
-const CoordinatesWithHooks = () => {
-  const { x, y } = useCoordinates("");
+const CoordinatesWithCustomHooks = () => {
+  const { x, y } = useCoordinates();
 
   return (
     <div>
@@ -12,4 +12,4 @@ const CoordinatesWithHooks = () => {
   );
 };
 
-export default CoordinatesWithHooks;
+export default CoordinatesWithCustomHooks;

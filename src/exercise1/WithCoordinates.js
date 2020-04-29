@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const withMousePosition = (OriginalComponent) => {
+const withCoordinates = (OriginalComponent) => {
   const NewComponent = () => {
     const [x, setX] = useState("");
     const [y, setY] = useState("");
@@ -21,4 +21,4 @@ const withMousePosition = (OriginalComponent) => {
   return NewComponent;
 };
 
-export default withMousePosition;
+export default withCoordinates;

@@ -1,7 +1,7 @@
 import React from "react";
 import CoordinatesTemplate from "./CoordinatesTemplate";
 
-const FindTheCoordinatesWithHooks = ({ x, y }) => {
+const FindTheCoordinatesWithRenderProps = ({ x, y }) => {
   return (
     <div>
       <CoordinatesTemplate x={x} y={y} />
@@ -9,4 +9,4 @@ const FindTheCoordinatesWithHooks = ({ x, y }) => {
   );
 };
 
-export default FindTheCoordinatesWithHooks;
+export default FindTheCoordinatesWithRenderProps;

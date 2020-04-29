@@ -15,7 +15,7 @@ const MouseMove = (props) => {
     return () => window.removeEventListener("mousemove", handleListener);
   }, []);
 
-  return <div>{props.render(x, y)}</div>;
+  return <div>{props.render({ x, y })}</div>;
 };
 
 export default MouseMove;
